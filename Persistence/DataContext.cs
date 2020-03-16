@@ -18,7 +18,8 @@ namespace Persistence
                 .HasData(
                     new Value { Id = 1, Name = "First Value"},
                     new Value { Id = 2, Name = "Second Value"},
-                    new Value { Id = 3, Name = "Third Value"}
+                    new Value { Id = 3, Name = "Third Value"},
+                    new Value { Id = 4, Name = "Fourth Value"}
                 );
         }
     }
